@@ -21,9 +21,12 @@ Se crea una nueva clase de ManejadordePrecio, para que las clases helado y paste
 
 La clase aderezo esta muy desacoplada, si se desea bajar con cada tipo de aderezo que existe no se va a lograr. Por el cual se crean las subclases frutilla, crema y malvadiscos que extienden de aderezo para una mejor modificación y asi no violar el principio DIP.
 
-![SOLID4 DIP ](https://user-images.githubusercontent.com/84789414/121573366-d059ac00-c9ea-11eb-9132-8cdcd09eb8d9.png)
+![WhatsApp Image 2021-06-10 at 12 02 54](https://user-images.githubusercontent.com/33164047/121569991-0563ff80-c9e7-11eb-98cc-32cfda79578c.jpeg)
 
 
+# 5) Principio SOLID violado DIP
 
+El manejador de leche daba un error de compatibilidad y accesibilidad con otras clases. Mientras que en la clase leche entera posee el método abstracto usar pastel, lo que hacia que la clase leche deslactosada lo implemente, sin embargo para los pasteles no se puede utilizar la leche deslactosada porque se dañaría la mezcla. Lo cual realizaba que implemente un método no deseado. Se quita el metodo asbtracto y se lo agrega postre mediante una validación para verificar si el postre es un helado o un pastel y asi no violar el DIP.
 
+![WhatsApp Image 2021-06-10 at 13 00 11](https://user-images.githubusercontent.com/33164047/121574424-df8d2980-c9eb-11eb-9fd8-df6039099ec2.jpeg)
 
