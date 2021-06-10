@@ -21,7 +21,7 @@ Se crea una nueva clase de ManejadordePrecio, para que las clases helado y paste
 
 La clase aderezo esta muy desacoplada, si se desea bajar con cada tipo de aderezo que existe no se va a lograr. Por el cual se crean las subclases frutilla, crema y malvadiscos que extienden de aderezo para una mejor modificación y asi no violar el principio DIP.
 
-![WhatsApp Image 2021-06-10 at 12 02 54](https://user-images.githubusercontent.com/33164047/121569991-0563ff80-c9e7-11eb-98cc-32cfda79578c.jpeg)
+![SOLID4 DIP ](https://user-images.githubusercontent.com/84789414/121573366-d059ac00-c9ea-11eb-9132-8cdcd09eb8d9.png)
 
 
 
